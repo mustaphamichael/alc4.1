@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+
+    <string name="welcome">Welcome to ALC 4.0</string>
+    <string name="about_alc">About ALC</string>
+    <string name="my_profile">My Profile</string>
+    <string name="name">Michael Mustapha</string>
+    <string name="track">Android</string>
+    <string name="country">Nigeria</string>
+    <string name="email">mustaphamichael75@gmail.com</string>
+    <string name="phone">+2348183518215</string>
+    <string name="slack">\@mmustapha</string>
+</resources>
