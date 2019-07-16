@@ -12,6 +12,7 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
         setSupportActionBar(toolbar)
+        toolbar.setTitleTextAppearance(this, R.style.Toolbar)
         supportActionBar?.title = getString(R.string.app_name)
 
         about_btn.setOnClickListener { startActivity(Intent(this, AboutActivity::class.java)) }

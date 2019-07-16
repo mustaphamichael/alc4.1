@@ -11,6 +11,7 @@ class ProfileActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile)
         setSupportActionBar(toolbar)
+        toolbar.setTitleTextAppearance(this, R.style.Toolbar)
         supportActionBar?.title = getString(R.string.my_profile)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }

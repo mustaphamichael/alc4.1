@@ -17,6 +17,7 @@ class AboutActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about)
         setSupportActionBar(toolbar)
+        toolbar.setTitleTextAppearance(this, R.style.Toolbar)
         supportActionBar?.title = getString(R.string.about_alc)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         webView.loadUrl("https://andela.com/alc")
